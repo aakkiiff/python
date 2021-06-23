@@ -1,4 +1,4 @@
-print("welcome to the tip calculator")
+print("welcome to the bill splitting calculator")
 bill =int(input("how much you guys need to  pay\n"))
 people=int(input("how many guys are you?\n"))
 vat=int(input("how much is vat?\n"))
