@@ -11,17 +11,17 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 platform = input("for which platform are you using this password my boy?\n")
 p=''
 for i in range(0,nr_letters):
-  a=random.randint(1,26)
+  a=random.randint(0,51)
   l=(letters[a])
   p=p+l
 
 for i in range(0,nr_symbols):
-  a=random.randint(1,8)
+  a=random.randint(0,8)
   l=(symbols[a])
   p=p+l
 
 for i in range(0,nr_numbers):
-  a=random.randint(1,9)
+  a=random.randint(0,9)
   p=p+str(a)
 
 p=list(p)
