@@ -1,5 +1,5 @@
 This project is upgraded version of my old sub-repo python/passwordGen8r/ 
-there are 2 files.PasswordGen8_Dcry-V2.py generates a random password according to your parameters and gives you a new password.
+there are 2 files.PasswordGen8_Ncry-V2.py generates a random password according to your parameters and gives you a new password.
 then it asks u a secret shift key and encrypts the password and saves the encrypted password to secret.txt file.
 
 the other file,PasswordGen8_Dcry-V2.py is used to decrypt the encrypted password using the SHIFT KEY which was used earlier to encrypt it.
